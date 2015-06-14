@@ -14,7 +14,7 @@ angular.module('xPeru', [
 			.state('home', {
 				url: '/home',
 				controller: 'HomeController',
-				templateUrl: 'modules/home/views/home.html',
+				templateUrl: 'modules/Home/views/home.html',
 				hideMenus: true,
 				data: {},
 				reloadOnSearch: false

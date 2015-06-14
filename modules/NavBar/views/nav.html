@@ -1,6 +1,32 @@
-<div ui-view>
-	<div class="container-fluid">
-		<img src="img/logo.png">
-		<div>HOla mundo</div>
-	</div>
+<div class="row">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid" id="headerXPeru">
+          <div class="navbar-center">
+            <a class="navbar-brand" rel="home" href="#" title="Ecole Polytechnique">
+              <img src="/img/logo.png">
+            </a>
+          </div>
+          <div class="nav navbar-top-links navbar-right">
+            <img src="img/XPeru.jpg" style="width:130px;height:130px">
+          </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div class="row">
+  <div class="container-fluid" style="border:solid; border-width:1px; padding-right:0;">
+    <ul class="nav nav-pills">
+      <li class="pull-left" ng-class="{'active':home==1}"><a ui-sref="home" ui-sref-opts="{reload: false}">Inicio</a>
+      </li>
+      <li class="pull-left" ng-class="{'active':matriceSem==1}"><a ui-sref="matrice_sem" ui-sref-opts="{reload: false}">Matrice semaine</a>
+      </li>
+      <li class="pull-left" ng-class="{'active':matriceOcJour==1}"><a ui-sref="matrice_oc_jour" ui-sref-opts="{reload: false}">Matrice OC/jour</a>
+      </li>
+      <li class="pull-left" ng-class="{'active':trmtOc==1}"><a ui-sref="maj_traitement_oc" ui-sref-opts="{reload: false}">MAJ traitement OC</a>
+      </li>
+      <li class="pull-right" ng-class="{'active':referentiel==1}"><a ui-sref="referentiel" ui-sref-opts="{reload: false}">R&eacute;f&eacute;rentiels</a>
+      </li>
+      <li class="pull-right" ng-class="{'active':gestion==1}"><a ui-sref="gestion" ui-sref-opts="{reload: false}">Gestion des utilisateurs</a>
+      </li>
+    </ul>
+  </div>
 </div>
