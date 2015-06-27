@@ -9,11 +9,11 @@ m.directive('xperuNavBar',
 			templateUrl: 'modules/NavBar/views/nav.html',
 			scope: {
 				home: '@',
-				matriceSem: '@',
-				matriceOcJour: '@',
-				trmtOc: '@',
-				referentiel: '@',
-				gestion: '@'
+				anuncios: '@',
+				postular: '@',
+				contact: '@',
+				agenda: '@',
+				miscelanea: '@'
 			}
 		};
 	});
