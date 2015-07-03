@@ -1,6 +1,6 @@
 # XPeruWeb - Sitio web piloto para X Pérou
 Este manual describe el procedimento a seguir para poder instalar las herramientas y poder colaborar en la 
-codificacion de este proyecto, Este ha sido probado para instalaciones en Linux(Ubuntu 14.10), IOS (Yosemite), y Windows 7/8.
+codificacion de este proyecto, este ha sido probado para instalaciones en Linux(Ubuntu 14.10), IOS (Yosemite), y Windows 7/8.
 ## Instalacion de las herramientas
 Instalar en este orden los siguientes programas:
 
@@ -19,4 +19,28 @@ modifican las variables de entorno de windows, y estas a veces no son actualizad
 - Node.js sirve para emular un servidor de aplicacion y el comando npm para instalar dependencias (librerias).
 - Bower sirve para la gestion de dependencias del proyecto, este verifica la compatibilidad de las librerias descargadas,
 y ademas guarda esta informacion en el archivo bower.json, asi no es necesario poner en nuestro repository las librerias, solo
-el archivo bower.json.
+el archivo bower.json y ejecutar el commando bower install desde un terminal (en el directorio del proyecto).
+
+## Partes del sitio web
+Hemos divido la pagina en diferentes modulos, cada uno es independiente, es decir cada colaborador puede trabajar en un modulo, sin bloquear el trabajo de los demas. Estos modulos son:
+
+#NavBar
+Esta es la barra de navegacion que aparece en la parte superior, angularjs permite incluirla en todas los html de los otros modulos usando solo una linea.
+
+#Home
+Pagina de bienvenida, aun estamos trabajando en la estructura y contenido.
+
+#Agenda
+La idea es poner la informacion de contacto de cada uno de los X peruanos, estudiantes y anciens X. Ademas de un pequeño CV donde se resuma que han hecho, me parece buena idea poner un link al LinkedIn de cada uno.
+
+#Anuncios
+Uhmm
+
+#Contact
+Un pequeño formulario para que nos envien sus preguntas o dudas, basicamente esto deberia reenviar un mail a alguna cuenta de correo, la idea es mantener toda la informacion en un solo sitio.
+
+#Postular
+Toda la informacion necesaria para postular a polytechnique, rendir los examenes de manera satisfactoria y estar listo para el tronco comun.
+
+#La vida en Polytechnique?
+Titre de séjour, sécurité sociale, 4A, etc etc.
