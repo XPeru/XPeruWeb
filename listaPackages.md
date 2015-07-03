@@ -6,5 +6,5 @@
 - SublimeCodeIntel
 - JSLint
 - SublimeLinter
-  └jshint
-  └csslint
+  * jshint
+  * csslint
