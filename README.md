@@ -21,26 +21,26 @@ modifican las variables de entorno de windows, y estas a veces no son actualizad
 y ademas guarda esta informacion en el archivo bower.json, asi no es necesario poner en nuestro repository las librerias, solo
 el archivo bower.json y ejecutar el commando bower install desde un terminal (en el directorio del proyecto).
 
-## Partes del sitio web
+# Partes del sitio web
 Hemos divido la pagina en diferentes modulos, cada uno es independiente, es decir cada colaborador puede trabajar en un modulo, sin bloquear el trabajo de los demas. Estos modulos son:
 
-#NavBar
+##NavBar
 Esta es la barra de navegacion que aparece en la parte superior, angularjs permite incluirla en todas los html de los otros modulos usando solo una linea.
 
-#Home
-Pagina de bienvenida, aun estamos trabajando en la estructura y contenido.
+##Home
+Pagina de bienvenida, una breve explicacion de que es polytechnique, la diferencia del sistema de educacion peruano y frances, y una descripcion del resto de la web?
 
-#Agenda
+##Agenda
 La idea es poner la informacion de contacto de cada uno de los X peruanos, estudiantes y anciens X. Ademas de un pequeño CV donde se resuma que han hecho, me parece buena idea poner un link al LinkedIn de cada uno.
 
-#Anuncios
+##Anuncios
 Uhmm
 
-#Contact
+##Contact
 Un pequeño formulario para que nos envien sus preguntas o dudas, basicamente esto deberia reenviar un mail a alguna cuenta de correo, la idea es mantener toda la informacion en un solo sitio.
 
-#Postular
+##Postular
 Toda la informacion necesaria para postular a polytechnique, rendir los examenes de manera satisfactoria y estar listo para el tronco comun.
 
-#La vida en Polytechnique?
+##La vida en Polytechnique?
 Titre de séjour, sécurité sociale, 4A, etc etc.
