@@ -1,6 +1,6 @@
 # XPeruWeb - Sitio web piloto para X Pérou
 Este manual describe el procedimento a seguir para poder instalar las herramientas y poder colaborar en la 
-codificacion de este proyecto, este ha sido probado para instalaciones en Linux(Ubuntu 14.10), IOS (Yosemite), y Windows 7/8.
+codificacion de este proyecto, este ha sido probado para instalaciones en Linux(Ubuntu 14.10), OS X (Yosemite), y Windows 7/8.
 ## Instalacion de las herramientas
 Instalar en este orden los siguientes programas:
 
