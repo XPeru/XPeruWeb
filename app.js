@@ -27,48 +27,47 @@ angular.module('xPeru', [
 				hideMenus: true,
 				data: {},
 				reloadOnSearch: false
-
 			})
-		.state('nav', {
-			url: '/nav',
-			controller: 'NavBarController',
-			templateUrl: 'modules/NavBar/views/nav.html',
-			hideMenus: true,
-			data: {},
-			reloadOnSearch: false
-		})
-		.state('contact', {
-			url: '/contact',
-			controller: 'ContactController',
-			templateUrl: 'modules/Contact/views/contact.html',
-			hideMenus: true,
-			data: {},
-			reloadOnSearch: false
-		})
-		.state('agenda', {
-			url: '/agenda',
-			controller: 'AgendaController',
-			templateUrl: 'modules/Agenda/views/agenda.html',
-			hideMenus: true,
-			data: {},
-			reloadOnSearch: false
-		})
-		.state('anuncios', {
-			url: '/anuncios',
-			controller: 'AnunciosController',
-			templateUrl: 'modules/Anuncios/views/anuncios.html',
-			hideMenus: true,
-			data: {},
-			reloadOnSearch: false
-		})
-		.state('postular', {
-			url: '/postular',
-			controller: 'PostularController',
-			templateUrl: 'modules/Postular/views/postular.html',
-			hideMenus: true,
-			data: {},
-			reloadOnSearch: false
-		});
+			.state('nav', {
+				url: '/nav',
+				controller: 'NavBarController',
+				templateUrl: 'modules/NavBar/views/nav.html',
+				hideMenus: true,
+				data: {},
+				reloadOnSearch: false
+			})
+			.state('contact', {
+				url: '/contact',
+				controller: 'ContactController',
+				templateUrl: 'modules/Contact/views/contact.html',
+				hideMenus: true,
+				data: {},
+				reloadOnSearch: false
+			})
+			.state('agenda', {
+				url: '/agenda',
+				controller: 'AgendaController',
+				templateUrl: 'modules/Agenda/views/agenda.html',
+				hideMenus: true,
+				data: {},
+				reloadOnSearch: false
+			})
+			.state('anuncios', {
+				url: '/anuncios',
+				controller: 'AnunciosController',
+				templateUrl: 'modules/Anuncios/views/anuncios.html',
+				hideMenus: true,
+				data: {},
+				reloadOnSearch: false
+			})
+			.state('postular', {
+				url: '/postular',
+				controller: 'PostularController',
+				templateUrl: 'modules/Postular/views/postular.html',
+				hideMenus: true,
+				data: {},
+				reloadOnSearch: false
+			});
 
 		$urlRouterProvider.otherwise('home');
 	}]);
