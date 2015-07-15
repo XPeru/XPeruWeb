@@ -3,7 +3,9 @@
 Angular JS es un frameworks javascript desarrollado por Google para la creacion de paginas web.
 Este simplifica en gran medida el tiempo de codificacion, el tamaño de los archivos, y la implementacion de animaciones.
 
-Angular extiende el lenguaje html.
+Angular extiende el lenguaje html. Algunos puntos pueden ser aclarados en el siguiente enlace:
+
+http://www.quora.com/What-are-the-differences-between-bootstrap-and-angular-js
 
 Nuestro proyecto esta organizado como sigue:
 
