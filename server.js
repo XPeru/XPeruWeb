@@ -12,7 +12,7 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-connection.query('SELECT * from USERS_APP', function(err, rows, fields) {
+connection.query('SELECT * from ORDERS_APP', function(err, rows, fields) {
   if (!err)
     console.log('The solution is: ', rows);
   else
