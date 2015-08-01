@@ -21,8 +21,12 @@ modifican las variables de entorno de windows, y estas a veces no son actualizad
 y ademas guarda esta informacion en el archivo bower.json, asi no es necesario poner en nuestro repository las librerias, solo
 el archivo bower.json y ejecutar el commando bower install desde un terminal (en el directorio del proyecto).
 
-bower install 
-npm install
+## Comandos a ejecutar
+- bower install.
+- npm install.
+
+## Load testing benchmark
+- Siege: http://www.farooqyousuf.net/2013/12/load-testing-with-siege-on-mac-os-x/
 
 # Partes del sitio web
 Hemos divido la pagina en diferentes modulos, cada uno es independiente, es decir cada colaborador puede trabajar en un modulo, sin bloquear el trabajo de los demas. Estos modulos son:
