@@ -10,7 +10,7 @@ var homeService = angular.module('HomeService', []);
 			var service = {};
 			
 			service.getOrders = function(callback) {
-				
+				/*
 				connection.connect();
 
 				connection.query('SELECT * from ORDERS_APP', function(err, rows, fields) {
@@ -21,7 +21,7 @@ var homeService = angular.module('HomeService', []);
 					//	console.log('Error while performing Query.');
 				});
 
-				connection.end();
+				connection.end();*/
 			};
 			return service;
 		}
